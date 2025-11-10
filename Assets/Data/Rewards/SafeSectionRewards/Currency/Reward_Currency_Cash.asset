@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a420bc8c1ed4aa64a88c2feb66357840, type: 3}
+  m_Name: Reward_Currency_Cash
+  m_EditorClassIdentifier: 
+  rewardType: 9
+  rewardAmount: 1000
+  rewardIcon: {fileID: 21300000, guid: 4971c642743d8304a87f5c08a22b8c9e, type: 3}

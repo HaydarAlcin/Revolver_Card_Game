@@ -1,0 +1,38 @@
+namespace Game.Features.RevolverCardGame
+{
+    [System.Serializable]
+    public enum RewardType
+    {
+        None,
+        BronzeChest,
+        SilverChest,
+        GoldChest,
+        BigChest,
+        SmallChest,
+        StandartChest,
+        SuperChest,
+        Gold,
+        Cash,
+        GlassesHelmet,
+        HatHelmet,
+        PumpkinHelmet,
+        Knife,
+        GranadeM26,
+        GranadeM67,
+        Molotov,
+        HealtshotNeurostim,
+        HealtshotRegenerator,
+        Tier1Shotgun,
+        Tier3Shotgun,
+        Tier2AssaultRifle,
+        Tier3Smg,
+        Tier3Sniper,
+        ArmorPoints,
+        KnifePoints,
+        PistolPoints,
+        SmgPoints,
+        AssaultRiflePoints,
+        ShotgunPoints,
+        SniperPoints,
+    }
+}

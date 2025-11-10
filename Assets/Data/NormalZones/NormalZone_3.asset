@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfad9bee31f7a054daed97d64be010a1, type: 3}
+  m_Name: NormalZone_3
+  m_EditorClassIdentifier: 
+  zoneIndex: 5
+  spinIcon: {fileID: 21300000, guid: a85774734d8bc6343b92fdb53328b4a4, type: 3}
+  triggerIcon: {fileID: 21300000, guid: 9e0ebfdebab37f941844a4599370dd41, type: 3}
+  rewards:
+  - {fileID: 11400000, guid: f8ec4d557ac81704bb2737adab956460, type: 2}
+  - {fileID: 11400000, guid: e498c8f134e760b4ca63e2d4f75146c7, type: 2}
+  - {fileID: 11400000, guid: fe91f28f414864f4c9c5bba835de2a71, type: 2}
+  - {fileID: 11400000, guid: 6b8e7fbc6c8da9047b657f4610232a4b, type: 2}
+  - {fileID: 11400000, guid: fb6bef238a84abf4eb7e7aae7cc3ae92, type: 2}
+  - {fileID: 11400000, guid: ddd157933a8a14a48b6b260599b49169, type: 2}
+  - {fileID: 11400000, guid: bbbb13f150c35e743982cab7e5d319ae, type: 2}
+  - {fileID: 11400000, guid: d7eaa8b2145d802498d5630d3796e5d4, type: 2}
+  - {fileID: 11400000, guid: 20e7860003b8f1049b6416ef9f0155ec, type: 2}
+  - {fileID: 11400000, guid: facb47b6c95ad6e41a4dfb657d95f286, type: 2}
+  - {fileID: 11400000, guid: 8eb98c0a3c86013459c8c801e908d5ce, type: 2}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f847b96c8e42ea94ea7a4d4e5a887f8b, type: 3}
+  m_Name: RevolverRules
+  m_EditorClassIdentifier: 
+  maxRewardsPerZone: 8
+  revolverGoldPrice: 100
+  reviveGoldPrice: 25
+  safeZoneIndexes: 0000000004000000090000000e00000013000000180000001d00000022000000
+  goldZoneIndexes: 1d0000003b000000
+  zoneRanges:
+  - MinInclusive: 30
+    MaxInclusive: 33
+    Weight: 0.003
+  - MinInclusive: 25
+    MaxInclusive: 28
+    Weight: 1
+  - MinInclusive: 20
+    MaxInclusive: 23
+    Weight: 2
+  - MinInclusive: 15
+    MaxInclusive: 18
+    Weight: 5
+  - MinInclusive: 10
+    MaxInclusive: 13
+    Weight: 7
+  - MinInclusive: 5
+    MaxInclusive: 8
+    Weight: 30
+  - MinInclusive: 1
+    MaxInclusive: 3
+    Weight: 100
+  safeZones:
+  - {fileID: 11400000, guid: 6ff7366b4caecb04589308c83a814f07, type: 2}
+  - {fileID: 11400000, guid: e35c1b752ac235b428bffcfc583d458e, type: 2}
+  - {fileID: 11400000, guid: 85e18a1931c7324459ee8458d07f8c58, type: 2}
+  - {fileID: 11400000, guid: 7358277827fda32458987345247ce90c, type: 2}
+  - {fileID: 11400000, guid: 08be3cf199402a2439fec3e79add7850, type: 2}
+  - {fileID: 11400000, guid: b66f97194a539ec4aa30c32318458d70, type: 2}
+  - {fileID: 11400000, guid: 37eb70f697b8cfe4caf5fd0338e9cda8, type: 2}
+  goldZones:
+  - {fileID: 11400000, guid: e9a62c688cc7f0c4d82f3270aa8b3817, type: 2}
+  - {fileID: 11400000, guid: 729e616e3fe222648ab1097e025fee9d, type: 2}
+  normalZones:
+  - {fileID: 11400000, guid: 82861a89f6bea2749a1d0f3a29899bfe, type: 2}
+  - {fileID: 11400000, guid: 25d8d9ea0fbb62a418f5364427fd0a63, type: 2}
+  - {fileID: 11400000, guid: 01a1827f241c46448ac394ea2d86dab6, type: 2}
+  - {fileID: 11400000, guid: 0b1ffc21d87a7be42ab9a3cd35ed764a, type: 2}
+  - {fileID: 11400000, guid: c078b318dba8eb741bbc336c45c555de, type: 2}
+  - {fileID: 11400000, guid: 605c3a312a5eee34487c326e48907ada, type: 2}
+  - {fileID: 11400000, guid: 3eb6ee0a3958d7f41bda16bd1ffeb5c6, type: 2}
+  - {fileID: 11400000, guid: f4670d505450f3142b66836278f01eea, type: 2}
+  - {fileID: 11400000, guid: 075d20bf18813ba4b86d0b31a6211005, type: 2}
+  - {fileID: 11400000, guid: 86fec1585194a0c488f88a00eccfa11a, type: 2}
+  - {fileID: 11400000, guid: 38fa142b45c6e394e9753d83166ad751, type: 2}
+  - {fileID: 11400000, guid: 0e0bd3dcbf5fbe946bb28532c0afab76, type: 2}
+  - {fileID: 11400000, guid: 50501f86bafb305479fc552e3ba025c6, type: 2}
+  - {fileID: 11400000, guid: bbd2c247be581aa43aa53bc489782df2, type: 2}
+  - {fileID: 11400000, guid: 1ecd451ef9a89474da2ede6a68feaf40, type: 2}
+  - {fileID: 11400000, guid: d25a411e22537c74eae10a6a4317b0a1, type: 2}
+  - {fileID: 11400000, guid: fd29f93579c564a4bb4dd076cd88e680, type: 2}
+  - {fileID: 11400000, guid: a6e11cda5b114ce4ba44612a911e9fca, type: 2}
+  - {fileID: 11400000, guid: ede66e3dc49f751488a6adb935dade9a, type: 2}
+  - {fileID: 11400000, guid: 237d5e400f3b07b42b4ec28ea2f46053, type: 2}
+  - {fileID: 11400000, guid: 90130e75d0f484943aeb1b31207c5eff, type: 2}
+  - {fileID: 11400000, guid: c7f1a62b1c1562d46ae4fc3250b1b56e, type: 2}
+  - {fileID: 11400000, guid: 98ad2d5fb8fcf2e498f151e650f86e62, type: 2}
+  - {fileID: 11400000, guid: 7865db9b66f3af144a3d940709e364bf, type: 2}
+  - {fileID: 11400000, guid: f6319fa267869834cb9fa398314e2ac1, type: 2}
+  - {fileID: 11400000, guid: f6cde2dd9685a4143bb856b0d26f15f4, type: 2}
+  - {fileID: 11400000, guid: 94b7175aa60747b46a745d04e2b191f7, type: 2}
