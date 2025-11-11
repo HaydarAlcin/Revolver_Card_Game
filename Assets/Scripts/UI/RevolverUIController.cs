@@ -238,6 +238,7 @@ namespace Game.Features.RevolverCardGame
 
         private void OnClaimButtonPressed()
         {
+            if (!_isGameStart) return;
             _isGameStart = false;
             ClaimPoolRewards();
             ResetPoolElements();
