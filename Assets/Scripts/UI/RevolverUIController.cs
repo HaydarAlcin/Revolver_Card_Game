@@ -214,6 +214,7 @@ namespace Game.Features.RevolverCardGame
             }
 
             spinButton.interactable = false;
+            claimButton.interactable = false;
             OnSpinRevolver(_targetRewardIndex);
         }
 
@@ -256,6 +257,7 @@ namespace Game.Features.RevolverCardGame
                 DepositRewardToPool();
 
             spinButton.interactable = true;
+            claimButton.interactable = true;
         }
 
         private void CheckCrosses(float z0, float z1)
